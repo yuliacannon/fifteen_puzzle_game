@@ -64,9 +64,13 @@ const fifteen = [
 	[9, 10, 11, 12],
 	[13, 14, null, 15]
 ];
-  
-const stateOfGame = fifteen; //shuffleState(fifteen);
+
+
+
+const stateOfGame = shuffleState(fifteen); //fifteen
 renderGame(stateOfGame);
+
+
 
 document.addEventListener('keydown', e => {
 	const xyOfEmptyCell = getXY(stateOfGame);
@@ -107,3 +111,4 @@ document.addEventListener('keydown', e => {
 		renderGame(stateOfGame);
 	}
 });
+
