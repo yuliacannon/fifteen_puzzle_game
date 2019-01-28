@@ -67,7 +67,7 @@ const fifteen = [
 
 
 
-const stateOfGame = shuffleState(fifteen); //fifteen
+const stateOfGame =  shuffleState(fifteen); 
 renderGame(stateOfGame);
 
 
